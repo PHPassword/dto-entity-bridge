@@ -1,0 +1,29 @@
+{
+    "name": "phpassword/dto-entity-bridge",
+    "description": "Library for converting entities to DTOs",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Phillip Schleicher",
+            "email": "the@phizzl.de"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^7.1",
+        "phpassword/dto": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "7"
+    },
+    "autoload": {
+        "psr-4": {
+            "PHPassword\\DtoEntityBridge\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "PHPassword\\UnitTest\\": "tests/src/"
+        }
+    }
+}
